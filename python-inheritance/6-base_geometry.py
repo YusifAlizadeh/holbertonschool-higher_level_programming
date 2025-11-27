@@ -1,14 +1,12 @@
 #!/usr/bin/python3
-'''
-BaseGeometry based game in python
-'''
+"""
+BaseGeometry class with area() method.
+"""
+
 
 class BaseGeometry:
-    '''
-    BaseGeometry
-    '''
+    """Base class."""
+
     def area(self):
-        '''
-        Lessssonssnsn
-        '''
+        """Raise an exception because area is not implemented."""
         raise Exception("area() is not implemented")
