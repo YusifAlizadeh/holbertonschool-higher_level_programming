@@ -1,0 +1,22 @@
+#!/usr/bin/python3
+"""Module that writes a string to a text file."""
+
+
+def write_file(filename="", text=""):
+    """
+    Write a string to a UTF-8 text file and return the number of characters written.
+
+    Parameters
+    ----------
+    filename : str
+        Path to the file where the text will be written.
+    text : str
+        The string content to write to the file.
+
+    Returns
+    -------
+    int
+        The number of characters written to the file.
+    """
+    with open(filename, "w", encoding="utf-8") as f:
+        return f.write(text)
