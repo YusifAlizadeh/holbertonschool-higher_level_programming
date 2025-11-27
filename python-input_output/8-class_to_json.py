@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""Function that returns the dictionary description of an object for JSON serialization."""
+"""Utility for converting an object's attributes into a JSON-friendly dict."""
 
 
 def class_to_json(obj):
