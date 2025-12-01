@@ -1,5 +1,9 @@
 #!/usr/bin/python3
 import urllib.request
+'''
+Yes it is
+'''
+
 
 if __name__ == "__main__":
     url = "https://intranet.hbtn.io/status"
