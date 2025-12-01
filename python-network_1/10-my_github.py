@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """
-Displays the GitHub user id using Basic Authentication with a personal access token.
+Displays the GitHub user id using Basic Authentication with a personal
+access token.
 """
 
 import sys
