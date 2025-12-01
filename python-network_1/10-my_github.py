@@ -6,6 +6,7 @@ Displays the GitHub user id using Basic Authentication with a personal access to
 import sys
 import requests
 
+
 if __name__ == "__main__":
     username = sys.argv[1]
     token = sys.argv[2]
